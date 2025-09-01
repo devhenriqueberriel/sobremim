@@ -1,0 +1,94 @@
+/* Reset de margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: black;
+    color: #ab8875;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Menu de navegação */
+#menu {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 40px;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Conteúdo */
+.content {
+    text-align: justify;
+    margin: 0 20px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p {
+    margin: 15px 0;
+}
+
+ul,li{
+    list-style-type: none;
+    text-align: center;
+}
+/* Estilo para imagens individuais */
+img {
+    width: 150px;
+    height: 175px;
+    border-radius: 50%;
+    padding: 10px;
+    display: block;       /* centraliza a imagem com margin auto */
+    margin: 0 auto;
+}
+
+/* Container para imagens lado a lado */
+.img-container {
+    display: flex;             
+    justify-content: center;   
+    gap: 20px;                 
+    flex-wrap: wrap;           
+    margin: 20px 0;
+}
+
+.img-container img {
+    width: 150px;
+    height: 175px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;    /* centraliza o texto */
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 14px;
+}
